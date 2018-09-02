@@ -2,7 +2,7 @@
   "name": "insight-api-zcash",
   "description": "A Zcash blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.3",
-  "repository": "git://github.com/zcash-hackworks/insight-api-zcash.git",
+  "repository": "git://github.com/wo01/insight-api-zcash.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -43,12 +43,16 @@
     {
       "name": "Simon Liu",
       "email": "simon@z.cash"
+    },
+    {
+      "name": "WO",
+      "email": "wo@ko-to.org"
     }
   ],
   "bugs": {
-    "url": "https://github.com/zcash-hackworks/insight-api-zcash/issues"
+    "url": "https://github.com/wo01/insight-api-zcash/issues"
   },
-  "homepage": "https://github.com/zcash-hackworks/insight-api-zcash",
+  "homepage": "https://github.com/wo01/insight-api-zcash",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -69,7 +73,7 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-zcash": "zcash-hackworks/bitcore-lib-zcash",
+    "bitcore-lib-zcash": "wo01/bitcore-lib-zcash",
     "bitcore-message-zcash": "str4d/bitcore-message-zcash",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
